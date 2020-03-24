@@ -3,6 +3,15 @@ import { injectCss } from './styles/injector'
 import { defaultCssTheme } from './styles/theme-default'
 import { escapeHtml } from './utils/html-escape'
 import Prism from 'prismjs'
+import processing from 'prismjs/components/prism-processing'
+import python from 'prismjs/components/prism-python'
+import c from 'prismjs/components/prism-c'
+import cpp from 'prismjs/components/prism-cpp'
+import arduino from 'prismjs/components/prism-arduino'
+import markupTemplating from 'prismjs/components/prism-markup-templating'
+import markdown from 'prismjs/components/prism-markdown'
+import php from 'prismjs/components/prism-php'
+import json from 'prismjs/components/prism-json'
 
 export default class CodeFlask {
   constructor (selectorOrElement, opts) {
