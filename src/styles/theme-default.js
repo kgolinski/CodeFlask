@@ -55,4 +55,7 @@ export const defaultCssTheme = `
 .codeflask .token.attr-value {
   color: #8500ff;
 }
+.codeflask .token.type {
+  color: #99bf00;
+}
 `
